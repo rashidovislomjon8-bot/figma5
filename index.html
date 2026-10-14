@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Islomjon figma 5</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="logo">GREENMIND</a>
+
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <a href="#products" aria-label="Cart">
+            <img src="./Vector.png" alt="Cart" />
+          </a>
+          <a href="#contact" aria-label="Profile">
+            <img src="./vector 2.svg" alt="Profile" />
+          </a>
+          <span class="icon-divider"></span>
+          <button class="menu-button" aria-label="Open menu">☰</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-content">
+          <h1>Buy your<br />dream plants</h1>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <h2>50+</h2>
+              <p>Plant Species</p>
+            </div>
+
+            <div class="stat stat-second">
+              <h2>100+</h2>
+              <p>Customers</p>
+            </div>
+          </div>
+
+          <form class="search-box" id="searchForm">
+            <input
+              type="search"
+              id="plantSearch"
+              placeholder="What are you looking for?"
+              aria-label="Search plants"
+            />
+            <button type="submit" aria-label="Search">
+              <span>⌕</span>
+            </button>
+          </form>
+        </div>
+
+        <div class="hero-visual">
+          <div class="plant-arch"></div>
+
+          <img class="hero-plant" src="./Gul.png" alt="Green plant in a pot" />
+
+          <img class="strelka" src="./Vector 187.png" alt="strelka" />
+          <img class="strelka1" src="./Vector 186.png" alt="strelka" />
+        </div>
+      </section>
+      <section>
+        <div class="sozlar">
+          <h2>Best Selling Plants</h2>
+          <p>
+            Easiest way to <br />
+            healthy life by buying <br />
+            your favorite plants
+          </p>
+          <button class="button">See more →</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
